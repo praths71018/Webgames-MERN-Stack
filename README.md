@@ -1,6 +1,6 @@
 
 ### cyberpunk website
-this is a cyberpunk themed website created by the og pratham shetty anna
+this is a cyberpunk themed website created by the original gangster pratham shetty anna
 
 
 
