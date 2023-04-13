@@ -1,0 +1,110 @@
+* {
+  margin: 0 50px;
+  padding: 20px 20px;
+}
+
+html {
+  background-image: url(Signin.jpg);
+  color: #00bebe;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: larger;
+  /* cursor: url(Cursor.png), auto; */
+}
+
+h2 {
+  text-align: center;
+}
+
+span {
+  font-size: medium;
+}
+
+form {
+  margin-left: 200px;
+}
+
+.box {
+  width: 400px;
+  height: 5px;
+  margin-right: 40px;
+  background: transparent;
+  border: 1px solid #00bebe;
+  transition: all 250ms ease-in-out;
+  position: relative;
+  color: #00bebe;
+}
+
+.box:hover {
+  box-shadow: 1px 1px 20px #00bebe;
+}
+
+.box:active {
+  background-color: #00bebe;
+}
+
+.box:focus {
+  box-shadow: 0 0 20px #00dcdc inset, 0 0 10px #00dcdc, 0 0 20px white;
+  border: 1px solid #00dcdc;
+  background: #00dcdc;
+  color: #212121;
+}
+
+.butn {
+  overflow: hidden;
+  position: relative;
+  text-shadow: 0 0 3px #00bebe;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #00bebe;
+  background: rgba(0, 190, 190, 0.2);
+  padding-bottom: 20px;
+  transition: all 250ms ease-in-out; /*when hovering it slowly glows*/
+}
+
+#Submit {
+  position: absolute;
+  bottom: -40px;
+  left: -10px;
+}
+
+#Reset {
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+}
+
+.butn:hover {
+  box-shadow: 0 0 8px #00bebe inset, 0 0 8px #00bebe;
+  border: 1px solid #00dcdc;
+  color: #00dcdc;
+  background: rgba(0, 220, 220, 0.3);
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid #00bebe;
+  background: rgba(0, 190, 190, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 8px #00bebe inset, 0 0 8px #00bebe;
+  border: 1px solid #00dcdc;
+  color: #00dcdc;
+  background: rgba(0, 220, 220, 0.3);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #303030;
+}

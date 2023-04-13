@@ -1,0 +1,205 @@
+@font-face {
+  font-family: glitch;
+  src: url(Fonts/DebugFreeTrial-MVdYB.otf);
+}
+
+@font-face {
+  font-family: blade;
+  src: url(Fonts/Bladeline-oXRa.ttf);
+}
+
+@font-face {
+  font-family: drip;
+  src: url(Fonts/AttackGraffiti-3zRBM.ttf);
+}
+
+@font-face {
+  font-family: mtech;
+  src: url(Fonts/AXAXAX.ttf);
+}
+
+@font-face {
+  font-family: Head;
+  src: url(Fonts/SpaceMission-rgyw9.otf);
+}
+
+@font-face {
+  font-family: Para;
+  src: url(/src/components/Fonts/PilotCommandGradient2Ital-K7RJy.otf);
+}
+
+@font-face {
+  font-family: About;
+  src: url(Fonts/OverThere.ttf);
+}
+
+@font-face {
+  font-family: headsub;
+  src: url(Fonts/OriginTechpersonaluse.ttf);
+}
+
+@font-face {
+  font-family: ans;
+  src: url(Fonts/animeace2_ital.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+html {
+  background-image: url("Images/rps.jpg");
+  background-size: cover;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  font-family: drip;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+.score {
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  font-family: mtech;
+}
+
+.p-count,
+.c-count {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.options {
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+span {
+  display: inline-block;
+  font-family: mtech;
+}
+
+.rock {
+  background-image: url("Images/Rock.png");
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 94px;
+  position: relative;
+  cursor: pointer;
+  color: transparent;
+}
+
+.r {
+  position: absolute;
+  bottom: 190px;
+  left: 330px;
+}
+
+.paper {
+  background-image: url("Images/Paper.png");
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 94px;
+  position: relative;
+  cursor: pointer;
+  color: transparent;
+}
+
+.p {
+  position: absolute;
+  bottom: 190px;
+  left: 480px;
+}
+
+.scissor {
+  background-image: url("Images/Scissors.png");
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 94px;
+  position: relative;
+  cursor: pointer;
+  color: transparent;
+}
+
+.s {
+  position: absolute;
+  bottom: 190px;
+  left: 625px;
+}
+
+.move {
+  margin-top: 60px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: headsub;
+}
+
+.movesleft {
+  margin-top: 2px;
+  font-family: Para;
+}
+
+.reload {
+  display: none;
+  margin-top: 2rem;
+  transform: skew(-21deg);
+  padding: 10px 10px;
+  background: black;
+  border: 3px solid rgb(0, 140, 255);
+  outline: none;
+  font-family: mtech;
+  font-size: large;
+  text-shadow: 0 0 5px black;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.reload:hover {
+  transform: scale(1.2);
+}
+
+.result {
+  margin-top: 80px;
+  font-size: 1.2rem;
+  font-family: Head;
+}
+
+@media screen and (max-width: 612px) {
+  .title {
+    text-align: center;
+  }
+  .score {
+    position: absolute;
+    top: 200px;
+    width: 100vw;
+  }
+  .options {
+    width: 100vw;
+  }
+}
