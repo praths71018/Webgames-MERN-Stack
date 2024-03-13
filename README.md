@@ -10,7 +10,7 @@ The selling points in this project:
 
 - The design of the project is completely done manually (in [Homepage.css](https://github.com/praths71018/Webgames-MERN-Stack/blob/main/src/components/Homepage.css))
 - Utilises MERN (MongoDB,Express,React,Node) Stack
-- Attractive and eye catching UI
+- Attractive and eye catching UI (refer to [Output.pdf](https://github.com/praths71018/Webgames-MERN-Stack/blob/main/Output.pdf))
 
 # Getting Started with Create React App
 
