@@ -1,3 +1,17 @@
+# Webgames
+
+A website in which you can play 3 games which are :
+
+- Tic Tac Toe
+- Rock Paper Scissors
+- Guess The Number
+
+The selling points in this project:
+
+- The design of the project is completely done manually (in Homepage.css)
+- Utilises MERN (MongoDB,Express,React,Node) Stack
+- Attractive and eye catching UI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
