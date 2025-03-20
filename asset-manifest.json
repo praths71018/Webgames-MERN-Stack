@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Webgames-MERN-Stack/static/css/main.c71a6c01.css",
+    "main.js": "/Webgames-MERN-Stack/static/js/main.d41bb914.js",
+    "static/js/787.34e6f716.chunk.js": "/Webgames-MERN-Stack/static/js/787.34e6f716.chunk.js",
+    "static/media/bg1.jpg": "/Webgames-MERN-Stack/static/media/bg1.72051f9b8f34c5dd3f85.jpg",
+    "static/media/GuessTheNumber.jpeg": "/Webgames-MERN-Stack/static/media/GuessTheNumber.2244a594ab7063246789.jpeg",
+    "static/media/Tic Tac Toe.png": "/Webgames-MERN-Stack/static/media/Tic Tac Toe.42663b94fc812f0e0744.png",
+    "static/media/Logo.png": "/Webgames-MERN-Stack/static/media/Logo.7920943e9b181eb3bb7c.png",
+    "static/media/bg.jpg": "/Webgames-MERN-Stack/static/media/bg.11899938d3a777f64563.jpg",
+    "static/media/RPC.png": "/Webgames-MERN-Stack/static/media/RPC.b62e87d93c48b330e41b.png",
+    "static/media/PilotCommandGradient2Ital-K7RJy.otf": "/Webgames-MERN-Stack/static/media/PilotCommandGradient2Ital-K7RJy.60dd04d6486d6e9dd981.otf",
+    "static/media/animeace2_ital.ttf": "/Webgames-MERN-Stack/static/media/animeace2_ital.fed3537eb1485bcd46fa.ttf",
+    "static/media/OverThere.ttf": "/Webgames-MERN-Stack/static/media/OverThere.8192bb3cc28bb34a8db2.ttf",
+    "static/media/SpaceMission-rgyw9.otf": "/Webgames-MERN-Stack/static/media/SpaceMission-rgyw9.9f7052cf58f04a6694f8.otf",
+    "static/media/OriginTechpersonaluse.ttf": "/Webgames-MERN-Stack/static/media/OriginTechpersonaluse.91ec04328d7a9da85f53.ttf",
+    "static/media/cursor.ico": "/Webgames-MERN-Stack/static/media/cursor.840351a402dc10e2e87b.ico",
+    "index.html": "/Webgames-MERN-Stack/index.html",
+    "main.c71a6c01.css.map": "/Webgames-MERN-Stack/static/css/main.c71a6c01.css.map",
+    "main.d41bb914.js.map": "/Webgames-MERN-Stack/static/js/main.d41bb914.js.map",
+    "787.34e6f716.chunk.js.map": "/Webgames-MERN-Stack/static/js/787.34e6f716.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c71a6c01.css",
+    "static/js/main.d41bb914.js"
+  ]
+}

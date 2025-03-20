@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"
+		type="text/css" href="tic_tac_toe.css">
+	<script src="tic_tac_toe.js"></script>
+	<script>
+    function play() {
+    var audio = document.querySelector("audio");
+    audio.play();
+  }
+	</script>
+</head>
+
+<body>
+		<h1>ㄒ丨匚 ㄒ卂匚 ㄒㄖ乇</h1>
+		
+    <div class="grid">
+		<br><br>
+		<input type="text" id="b1" onclick=
+			"myfunc_3(); myfunc(); play(); " >
+
+		<input type="text" id="b2" onclick=
+			"myfunc_4(); myfunc(); play();" >
+
+		<input type="text" id="b3" onclick=
+			"myfunc_5(); myfunc(); play();" >
+		<br><br>
+
+		<input type="text" id="b4" onclick=
+			"myfunc_6(); myfunc(); play();" >
+			
+		<input type="text" id="b5" onclick=
+			"myfunc_7(); myfunc(); play();" >
+
+		<input type="text" id="b6" onclick=
+			"myfunc_8(); myfunc(); play();" >
+		<br><br>
+
+		<input type="text" id="b7" onclick=
+			"myfunc_9(); myfunc(); play();" >
+
+		<input type="text" id="b8" onclick=
+			"myfunc_10();myfunc(); play();">
+
+		<input type="text" id="b9" onclick=
+			"myfunc_11();myfunc(); play();">
+    </div>
+    <audio id="audio">
+		<source src="Audio/mixkit-arcade-game-jump-coin-216.wav" type="audio/wav">
+	</audio>
+	<audio id="win">
+		<source src="Audio/mixkit-arcade-game-complete-or-approved-mission-205.wav" type="audio/wav">
+	</audio>
+	<audio id="tie">
+		<source src="Audio/mixkit-positive-interface-beep-221.wav" type="audio/wav">
+	</audio>
+		<br><br><br>
+		<button id="but" onclick="myfunc_2();">
+			RESET
+		</button>
+
+		<br><br>
+		<p id="print"></p>
+
+</body>
+
+</html>
