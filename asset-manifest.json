@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Webgames-MERN-Stack/static/css/main.c71a6c01.css",
+    "main.css": "/Webgames-MERN-Stack/static/css/main.b16e4555.css",
     "main.js": "/Webgames-MERN-Stack/static/js/main.d41bb914.js",
     "static/js/787.34e6f716.chunk.js": "/Webgames-MERN-Stack/static/js/787.34e6f716.chunk.js",
     "static/media/bg1.jpg": "/Webgames-MERN-Stack/static/media/bg1.72051f9b8f34c5dd3f85.jpg",
@@ -16,12 +16,12 @@
     "static/media/OriginTechpersonaluse.ttf": "/Webgames-MERN-Stack/static/media/OriginTechpersonaluse.91ec04328d7a9da85f53.ttf",
     "static/media/cursor.ico": "/Webgames-MERN-Stack/static/media/cursor.840351a402dc10e2e87b.ico",
     "index.html": "/Webgames-MERN-Stack/index.html",
-    "main.c71a6c01.css.map": "/Webgames-MERN-Stack/static/css/main.c71a6c01.css.map",
+    "main.b16e4555.css.map": "/Webgames-MERN-Stack/static/css/main.b16e4555.css.map",
     "main.d41bb914.js.map": "/Webgames-MERN-Stack/static/js/main.d41bb914.js.map",
     "787.34e6f716.chunk.js.map": "/Webgames-MERN-Stack/static/js/787.34e6f716.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c71a6c01.css",
+    "static/css/main.b16e4555.css",
     "static/js/main.d41bb914.js"
   ]
 }
